@@ -1,0 +1,23 @@
+{
+  "name": "@yf-bigdata/vue-ui",
+  "version": "1.0.2",
+  "description": "",
+  "main": "./index.ts",
+  "@main": "lib/index.js",
+  "@module": "es/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "typings": "lib/index.d.ts",
+  "keywords": [],
+  "author": "TuXunJia",
+  "license": "MIT",
+  "dependencies": {},
+  "browserslist": ["> 1%", "last 2 versions"]
+}
