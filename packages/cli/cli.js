@@ -2,7 +2,7 @@
  * @Author: TuXunJia
  * @Date: 2025-01-05 17:47:53
  * @LastEditors: TuXunJia
- * @LastEditTime: 2025-01-05 19:15:04
+ * @LastEditTime: 2025-01-05 21:23:47
  * @Description:
  */
 import commandLineArgs from 'command-line-args';
@@ -84,8 +84,6 @@ const promptsOptions = [
 const remoteList = {
   1: 'https://github.com/fantastic9499/bigdata-vue-ui.git',
   2: 'https://github.com/fantastic9499/bigdata-vue-ui.git',
-  //   1: 'https://gitee.com/geeksdidi/kittyui.git',
-  //   2: 'https://github.com/qddidi/easyest.git',
 };
 
 const getUserInfo = async () => {
@@ -94,6 +92,13 @@ const getUserInfo = async () => {
   if (!res.name || !res.template) {
     return;
   }
-  gitClone(`direct:${remoteList[res.template]}`, res.name, { clone: true });
+  //   gitClone(`direct:${remoteList[res.template]}`, res.name, { clone: true });
+  try {
+    await gitClone(`direct:${remoteList[res.template]}`, res.name, {
+      clone: true,
+    });
+  } catch (error) {
+    console.error('克隆模板时出错:', error);
+  }
 };
 getUserInfo();
