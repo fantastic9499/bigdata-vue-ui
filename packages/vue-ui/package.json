@@ -1,1 +1,30 @@
-{"name":"@yf-bigdata/vue-ui","version":"1.0.8","author":"TuXunJia","description":"","main":"lib/index.js","module":"es/index.mjs","files":["es","lib"],"sideEffects":["**/*.css"],"typings":"lib/index.d.ts","keywords":["益丰","益丰大数据","Vue3组件库"],"scripts":{"release":"release-it"},"repository":{"type":"git","url":"https://github.com/fantastic9499/yf-bigdata-vue-ui"},"license":"MIT"}
+{
+  "name": "@yf-bigdata/vue-ui",
+  "version": "1.0.9",
+  "author": "TuXunJia",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "typings": "lib/index.d.ts",
+  "keywords": [
+    "vite",
+    "Vue3",
+    "Vue3组件库",
+    "Vue3组件库脚手架"
+  ],
+  "scripts": {
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fantastic9499/bigdata-vue-ui"
+  },
+  "license": "MIT"
+}
