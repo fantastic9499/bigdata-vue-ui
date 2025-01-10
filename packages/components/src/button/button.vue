@@ -2,7 +2,7 @@
  * @Author: TuXunJia
  * @Date: 2024-12-29 17:01:11
  * @LastEditors: TuXunJia
- * @LastEditTime: 2025-01-03 18:15:24
+ * @LastEditTime: 2025-01-10 13:29:09
  * @Description: 
 -->
 <template>
@@ -25,7 +25,6 @@ export interface IButtonProps {
 const props = withDefaults(defineProps<IButtonProps>(), { size: 'small' });
 
 const buttonStyle = computed(() => {
-  return { [`ea-button--${props.type}`]: Boolean(props.type) };
-  //   return { [`ea-button--${props.type}`]: props.type };
+  return { [`bd-button--${props.type}`]: Boolean(props.type) };
 });
 </script>

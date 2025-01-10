@@ -3,3 +3,4 @@ packages/vue-ui/es
 packages/vue-ui/lib
 packages/components/es
 site/docs/.vitepress/cache
+packages/components/coverage
