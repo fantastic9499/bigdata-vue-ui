@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import dts from 'vite-plugin-dts';
 
-const test = '测试husky';
+const test = '测试husky...';
 
 export default defineConfig({
   test: {
