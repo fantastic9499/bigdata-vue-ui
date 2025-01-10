@@ -10,12 +10,7 @@
     "publish:vue-ui": "gulp -f packages/components/scripts/publish/index.ts",
     "lint:script1": "eslint --fix --quiet ./eslint.config.js",
     "prepare": "husky install",
-    "lint:script": "eslint --fix --quiet ./packages/components/vite.config.ts"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint:script"
-    }
+    "lint:script": "eslint --ext .js,.jsx,.vue,.ts,.tsx --fix --quiet ./"
   },
   "keywords": [],
   "author": "",
