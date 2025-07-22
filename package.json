@@ -9,7 +9,7 @@
     "vue-ui:dev": "pnpm run --filter ./examples dev",
     "publish:vue-ui": "gulp -f packages/components/scripts/publish/index.ts",
     "lint:script": "eslint --fix --quiet ./eslint.config.js",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",

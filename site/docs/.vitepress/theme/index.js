@@ -2,13 +2,15 @@
  * @Author: TuXunJia
  * @Date: 2025-01-03 10:43:22
  * @LastEditors: TuXunJia
- * @LastEditTime: 2025-01-03 12:14:43
- * @Description: 
+ * @LastEditTime: 2025-02-16 23:27:03
+ * @Description:
  */
-import DefaultTheme from "vitepress/theme";
-import bigdata from "@yf-bigdata/vue-ui";
+import bigdata from '@yf-bigdata/vue-ui';
+import DefaultTheme from 'vitepress/theme';
 // import { Button } from '@yf-bigdata/vue-ui';
 // 添加样式导入
+import { AntDesignContainer } from '@vitepress-demo-preview/component';
+import '@vitepress-demo-preview/component/dist/style.css';
 import '@yf-bigdata/vue-ui/lib/src/button/style/index.css';
 
 export default {
@@ -21,5 +23,6 @@ export default {
     app.use(bigdata);
     console.log('手动注册后的组件列表:', app._context.components);
     // app.component('bd-button', Button);
+    app.component('demo-preview', AntDesignContainer);
   },
 };

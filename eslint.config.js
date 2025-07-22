@@ -2,14 +2,14 @@
  * @Author: TuXunJia
  * @Date: 2025-01-03 15:50:12
  * @LastEditors: TuXunJia
- * @LastEditTime: 2025-01-10 17:43:38
+ * @LastEditTime: 2025-07-22 22:12:57
  * @Description:
  */
-import globals from 'globals';
 import pluginJs from '@eslint/js';
-import tseslint from 'typescript-eslint';
-import pluginVue from 'eslint-plugin-vue';
 import prettierConfig from 'eslint-config-prettier';
+import pluginVue from 'eslint-plugin-vue';
+import globals from 'globals';
+import tseslint from 'typescript-eslint';
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [

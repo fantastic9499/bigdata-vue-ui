@@ -1,0 +1,8 @@
+###
+ # @Author: TuXunJia
+ # @Date: 2025-01-10 17:50:48
+ # @LastEditors: TuXunJia
+ # @LastEditTime: 2025-01-10 22:19:54
+ # @Description: 
+### 
+pnpm run lint:script
