@@ -2,7 +2,7 @@
  * @Author: TuXunJia
  * @Date: 2025-01-02 10:44:34
  * @LastEditors: TuXunJia
- * @LastEditTime: 2025-01-04 23:07:38
+ * @LastEditTime: 2025-07-23 17:08:05
  * @Description:
  */
 import fs from 'fs';
@@ -30,7 +30,6 @@ const delPath = async (path: string) => {
         }
       }
     });
-
     if (path != `${pkgPath}/vue-ui`) fs.rmdirSync(path);
   }
 };

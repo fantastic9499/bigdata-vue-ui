@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@yf-bigdata/vue-ui": "workspace:^"
+    "@yf-bigdata/vue-ui": "workspace:^",
+    "@pluve/antd-rest": "^1.1.2"
   }
 }

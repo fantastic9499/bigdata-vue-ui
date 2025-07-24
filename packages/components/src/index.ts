@@ -2,10 +2,25 @@
  * @Author: TuXunJia
  * @Date: 2024-12-29 17:00:41
  * @LastEditors: TuXunJia
- * @LastEditTime: 2025-01-04 23:08:13
- * @Description:
+ * @LastEditTime: 2025-07-24 16:59:45
  */
-import Button from './button';
+import { App } from 'vue';
 import type { IButtonProps } from './button';
+import Button from './button';
+// import type { ITableSettingsModalProps } from './table-settings-modal';
+import {
+  default as TableSettingsModal,
+  type ITableSettingsModalProps,
+} from './table-settings-modal';
 
-export { Button, IButtonProps };
+export { Button, IButtonProps, ITableSettingsModalProps, TableSettingsModal };
+
+export default {
+  install: (app: App) => {
+    app.use(Button);
+    app.use(TableSettingsModal);
+    // for (const c in components) {
+    //   app.use(components[c]);
+    // }
+  },
+};

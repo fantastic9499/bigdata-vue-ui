@@ -23,5 +23,17 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "devDependencies": {
+    "ant-design-vue": "3.2.20",
+    "sass": "^1.89.2",
+    "unplugin-auto-import": "^19.3.0",
+    "unplugin-vue-components": "^28.8.0"
+  },
+  "peerDependencies": {
+    "ant-design-vue": "3.2.20"
+  },
+  "dependencies": {
+    "vue-draggable-plus": "^0.6.0"
+  }
 }

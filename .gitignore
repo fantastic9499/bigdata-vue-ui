@@ -4,3 +4,6 @@ packages/vue-ui/lib
 packages/components/es
 site/docs/.vitepress/cache
 packages/components/coverage
+packages/vue-ui-12
+yf-bigdata-vue-ui-1.0.3.tgz
+vite.config-2025.07.24.ts
